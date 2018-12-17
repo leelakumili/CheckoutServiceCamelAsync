@@ -3,8 +3,8 @@ package com.leela.checkout.async.business;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.leela.camel.model.OrderInfo;
-import com.leela.camel.repo.CheckoutRepository;
+import com.leela.checkout.async.model.OrderInfo;
+import com.leela.checkout.async.repo.CheckoutRepository;
 
 @Component
 public class CheckoutBR {
